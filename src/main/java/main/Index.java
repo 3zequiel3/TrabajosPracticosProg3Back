@@ -12,6 +12,9 @@ public class Index {
             case "1":
                 TP1.TP1.main(new String[]{});
                 break;
+            case "2":
+                TP2.TP2.main(new String[]{});
+                break;
             default:
                 System.out.println("TP_SELECT inválido: " + seleccion);
         }
