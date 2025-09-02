@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/Dockerfile">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/Dockerfile" />
+              <option name="originalContent" value="# Dockerfile para aplicación Java&#10;FROM openjdk:24-jdk-slim&#10;WORKDIR /app&#10;COPY build/install/TPS/ ./&#10;EXPOSE 8080&#10;ENTRYPOINT [&quot;sh&quot;, &quot;-c&quot;, &quot;./bin/TPS &amp;&amp; tail -f /dev/null&quot;]" />
+              <option name="updatedContent" value="# Dockerfile para aplicación Java&#10;FROM openjdk:24-jdk-slim&#10;WORKDIR /app&#10;COPY build/install/TPS/ ./&#10;EXPOSE 8080&#10;ENTRYPOINT [&quot;sh&quot;, &quot;-c&quot;, &quot;./bin/TPS &amp;&amp; tail -f /dev/null&quot;]" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
