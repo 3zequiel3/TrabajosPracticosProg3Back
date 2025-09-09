@@ -19,6 +19,12 @@ public class Index {
             case "3":
                 TP3.TP3.main(new String[]{});
                 break;
+            case "4":
+                TP4.TP4Hash.main(new String[]{});
+                break;
+                case "5":
+                TP_1_Collections.Main.main(new String[]{});
+                break;
             default:
                 System.out.println("TP_SELECT inválido: " + seleccion);
         }
