@@ -36,6 +36,15 @@ public class Index {
             case "8":
                 TP_Loombok_1.TP_Loombok_1.main(new String[]{});
                 break;
+            case "9":
+                TP_Loombok_2.TP_Loombok_2.main(new String[]{});
+                break;
+            case "10":
+                TP_DTOs_1.TP_DTOs_1.main(new String[]{});
+                break;
+            case "11":
+                TP_DTOs_2.TP_DTOs_2.main(new String[]{});
+                break;
             default:
                 System.out.println("TP_SELECT inválido: " + seleccion);
         }
